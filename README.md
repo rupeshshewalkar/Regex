@@ -6,6 +6,9 @@
 - Regular Expressions is not programming Langauge
 - Regular Expressions are Egar to return answer or match
 - Regular Expressions are Greedy to return all match which are possible
+- online Regex tool 
+  https://www.regexpal.com/
+  
 
 ### **2 Common Regular Expression**
 
