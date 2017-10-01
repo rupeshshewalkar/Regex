@@ -28,6 +28,8 @@ Except few metacharacter need escape like:
 
 **Shorthand for Character Set**
 
+
+
 | Shorthand     | Meaning          | Equivalant       |
 | ------------- |:----------------:| ----------      :|
 | \d            | Digit            |  [a-zA-Z]        |
