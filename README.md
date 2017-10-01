@@ -54,7 +54,7 @@ Class | Equivalent| meaning
 [:graph:]|	[^[:cntrl:]]|	graphic characters (all characters which have graphic representation)
 [:lower:]|	[a-z]|	lowercase letters
 [:print:]|	[[:graph] ]|	graphic characters and space
-[:punct:] |	[-!"#$%&'()*+,./:;<=>?@[]^_`{|}~]	|all punctuation characters (all graphic characters except letters and digits)
+[:punct:] |	[-!"#$%&'()*+,./:;<=>?@[]^_`{\|}~]	|all punctuation characters (all graphic characters except letters and digits)
 [:space:] |	[ \t\n\r\f\v]	|all blank (whitespace) characters, including spaces, tabs, new lines, carriage returns, form feeds, and vertical tabs
 [:upper:] |	[A-Z]	|uppercase letters
 [:word:]|	[A-Za-z0-9_]	|word characters
