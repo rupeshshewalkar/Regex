@@ -2,6 +2,14 @@
 
 # Regex
 
+- Regular Expressions used to match text and digit.
+- Regular Expressions is not programming Langauge
+- Regular Expressions are Egar to return answer or match
+- Regular Expressions are Greedy to return all match which are possible
+
+**Common Regular Expression**
+
+
 . used to match any character execpt newline
 
 ^ used to indicate start of the line
