@@ -29,7 +29,7 @@ Except few metacharacter need escape like:
 **Shorthand for Character Set**
 
  Shorthand     | Meaning          | Equivalant       |
- --- |---  | --- |---|
+ ---|---|---|---|
  \d            | Digit            |  [a-zA-Z]        |
  \w            | Word             |  [0-9]           |
  \s            | WhiteSpace       |  [/t/r/n ]       |
