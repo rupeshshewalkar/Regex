@@ -30,7 +30,7 @@ Except few metacharacter need escape like:
 
 **Shorthand for Character Set**
 
- Shorthand     | Meaning          | Equivalant       |
+ Shorthand     | Meaning          | Equivalent       |
  --------------|:----------------:|-----------------:|
  \d            | Digit            |  [a-zA-Z]        |
  \w            | Word             |  [0-9]           |
@@ -38,5 +38,24 @@ Except few metacharacter need escape like:
  \D            | Not Digit        |  [^a-zA-Z]       |
  \W            | Not Word         |  [^0-9]          |
  \S            | Not WhiteSpace   |  [^/t/r/n ]      |
- 
- 
+
+
+
+**POSIX class	Equivalent to	Matches**
+
+Class | Equivalent| meaning
+------|:---------:|---------
+[:alnum:]|	[A-Za-z0-9]	|digits, uppercase and lowercase letters
+[:alpha:]|	[A-Za-z]	|upper- and lowercase letters
+[:ascii:]|	[\x00-\x7F]	|ASCII characters
+[:blank:] |	[ \t]	|space and TAB characters only
+[:cntrl:]|	[\x00-\x1F\x7F]|	Control characters
+[:digit:]|	[0-9]|	digits
+[:graph:]|	[^[:cntrl:]]|	graphic characters (all characters which have graphic representation)
+[:lower:]|	[a-z]|	lowercase letters
+[:print:]|	[[:graph] ]|	graphic characters and space
+[:punct:] |	[-!"#$%&'()*+,./:;<=>?@[]^_`{|}~]	|all punctuation characters (all graphic characters except letters and digits)
+[:space:] |	[ \t\n\r\f\v]	|all blank (whitespace) characters, including spaces, tabs, new lines, carriage returns, form feeds, and vertical tabs
+[:upper:] |	[A-Z]	|uppercase letters
+[:word:]|	[A-Za-z0-9_]	|word characters
+[:xdigit:]|	[0-9A-Fa-f]	|hexadecimal digits
