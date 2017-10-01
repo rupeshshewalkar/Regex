@@ -26,4 +26,14 @@ Except few metacharacter need escape like:
 3.  ^ caret 
 4.  / escape
 
+**Shorthand for Character Set**
+
+| Shorthand     | Meaning          | Equivalant       |
+| ------------- |:----------------:| ----------      :|
+| \d            | Digit            |  [a-zA-Z]        |
+| \w            | Word             |  [0-9]           |
+| \s            | WhiteSpace       |  [/t/r/n ]       |
+| \D            | Not Digit        |  [^a-zA-Z]       |
+| \W            | Not Word         |  [^0-9]          |
+| \S            | Not WhiteSpace   |  [^/t/r/n ]      |
 
