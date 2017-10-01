@@ -1,3 +1,5 @@
+
+
 # Regex
 
 . used to match any character execpt newline
@@ -36,4 +38,10 @@ Except few metacharacter need escape like:
  \D            | Not Digit        |  [^a-zA-Z]       |
  \W            | Not Word         |  [^0-9]          |
  \S            | Not WhiteSpace   |  [^/t/r/n ]      |
+ 
+ | Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
