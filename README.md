@@ -113,5 +113,7 @@ the boundary is based on a couple of conditions. It is the first word character 
 
 Examples: 
 
-/\b\d+\b/ matches only digit like 1234 or it doesn't match 8778abc
+/\b\d+\b/ matches only digit like 1234 or it doesn't match 8778abc, because it is bounded in digit boundary 
+
+
 
