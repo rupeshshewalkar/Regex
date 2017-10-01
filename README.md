@@ -68,3 +68,15 @@ Metacharacter| Meaning
  +| Preceding item one or more times
  ?| Preceding item zero or one time
 
+**Quantified Repetition **
+
+{min,max} : min and max are integer number
+
+example :   /d\{1,3\} digit containing one or three like 123, 456, 22 
+
+/d\{1\} minimum single digit 
+
+/d\{1,\} minimum single digit and max infinite 
+            
+            
+
