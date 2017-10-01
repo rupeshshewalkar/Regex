@@ -9,22 +9,17 @@
 
 **Common Regular Expression**
 
+Symbol | Explaination
+:-------|:---------:
+. |used to match any character execpt newline
+^|used to indicate start of the line
+$ |used to indicate end of the line
+[abc]|used to match character a,b or c
+[^abc]|used to match any character execpt a,b and c
+[a-z] |used to match character a through z
+[A-Z] |used to match character A through Z
+[0-9] |used to match digit 0 through 9
 
-. used to match any character execpt newline
-
-^ used to indicate start of the line
-
-$ used to indicate end of the line
-
-[abc] used to match character a,b or c
-
-[^abc] used to match any character execpt a,b and c
-
-[a-z] used to match character a through z
-
-[A-Z] used to match character A through Z
-
-[0-9] used to match digit 0 through 9
 
 **Metacharacter Inside character**
 
@@ -76,6 +71,7 @@ Metacharacter| Meaning
  +| Preceding item one or more times
  ?| Preceding item zero or one time
 
+
 **Quantified Repetition**
 
 {min,max} : min and max are integer number
@@ -87,9 +83,11 @@ example :   /d\{1,3\} digit containing one or three like 123, 456, 22
 /d\{1,\} minimum single digit and max infinite 
 
 
+
 **Grouping Metachracters**
 
 (): used to grouping metacharacters like /(abc)+/ matches abc, abcabc, abcabcabac 
+
 
 **Alternation Metacharacters**
 
