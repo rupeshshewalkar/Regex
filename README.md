@@ -68,7 +68,7 @@ Metacharacter| Meaning
  +| Preceding item one or more times
  ?| Preceding item zero or one time
 
-**Quantified Repetition **
+**Quantified Repetition**
 
 {min,max} : min and max are integer number
 
