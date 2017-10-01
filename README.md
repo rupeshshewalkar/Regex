@@ -31,7 +31,7 @@ Except few metacharacter need escape like:
 **Shorthand for Character Set**
 
  Shorthand     | Meaning          | Equivalant       |
- --------------|-----------------:|-----------------:|
+ --------------|:----------------:|-----------------:|
  \d            | Digit            |  [a-zA-Z]        |
  \w            | Word             |  [0-9]           |
  \s            | WhiteSpace       |  [/t/r/n ]       |
@@ -39,9 +39,4 @@ Except few metacharacter need escape like:
  \W            | Not Word         |  [^0-9]          |
  \S            | Not WhiteSpace   |  [^/t/r/n ]      |
  
- | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
+ 
