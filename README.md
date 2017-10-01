@@ -94,3 +94,24 @@ example :   /d\{1,3\} digit containing one or three like 123, 456, 22
 | is OR operator like /apple|orange/ matches "apple" or "orange" 
             
 
+**Anchors Expression**
+
+Symbol| Explaination
+:-----|:-------------:
+^ | used to start of the line
+$ | used to end of the line
+
+
+**Word Boundaries**
+
+Symbol| Explaination
+:-----|:-------------:
+/b | used to define Word boundaries
+/B | used to not define word boundaries
+
+the boundary is based on a couple of conditions. It is the first word character in the entire string, so that's the first boundary you are going to have, and at the end of the string, the very last word character is going to get boundary as well, and then after that, in between those two, every single time that it shifts between a word character, or a non-word character, we're going to have another boundary. Remember, word characters are the capital letters A to Z, lowercase a to z, 0 to 9, and the underscore.
+
+Examples: 
+
+/\b\d+\b/ matches only digit like 1234 or it doesn't match 8778abc
+
