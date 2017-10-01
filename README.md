@@ -1,13 +1,13 @@
 
 
-# Regex
+# 1. Regex
 
 - Regular Expressions used to match text and digit.
 - Regular Expressions is not programming Langauge
 - Regular Expressions are Egar to return answer or match
 - Regular Expressions are Greedy to return all match which are possible
 
-**Common Regular Expression**
+**2 Common Regular Expression**
 
 Symbol | Explaination
 :-------|:---------:
@@ -21,7 +21,7 @@ $ |used to indicate end of the line
 [0-9] |used to match digit 0 through 9
 
 
-**Metacharacter Inside character**
+**3 Metacharacter Inside character**
 
 metacharacter no necessary to escape in Character Set like /h[abc.xyz]t/ matches hat or h.t but doesn't match hot. dot (.) already escaped here no necessary to escaped again   
 
@@ -31,7 +31,7 @@ Except few metacharacter need escape like:
 3.  ^ caret 
 4.  / escape
 
-**Shorthand for Character Set**
+**4 Shorthand for Character Set**
 
  Shorthand     | Meaning          | Equivalent       |
  --------------|:----------------:|-----------------:|
@@ -44,7 +44,7 @@ Except few metacharacter need escape like:
 
 
 
-**POSIX class	Equivalent to	Matches**
+**5 POSIX class	Equivalent to	Matches**
 
 Class | Equivalent| meaning
 ------|:---------:|---------
@@ -63,7 +63,7 @@ Class | Equivalent| meaning
 [:word:]|	[A-Za-z0-9_]	|word characters
 [:xdigit:]|	[0-9A-Fa-f]	|hexadecimal digits
 
-**Repitation Metacharacters**
+**6 Repitation Metacharacters**
 
 Metacharacter| Meaning
 :------------:|:--------
@@ -72,7 +72,7 @@ Metacharacter| Meaning
  ?| Preceding item zero or one time
 
 
-**Quantified Repetition**
+**7 Quantified Repetition**
 
 {min,max} : min and max are integer number
 
@@ -84,17 +84,17 @@ example :   /d\{1,3\} digit containing one or three like 123, 456, 22
 
 
 
-**Grouping Metachracters**
+**8 Grouping Metachracters**
 
 (): used to grouping metacharacters like /(abc)+/ matches abc, abcabc, abcabcabac 
 
 
-**Alternation Metacharacters**
+**9 Alternation Metacharacters**
 
 | is OR operator like /apple|orange/ matches "apple" or "orange" 
             
 
-**Anchors Expression**
+**10 Anchors Expression**
 
 Symbol| Explaination
 :-----|:-------------:
@@ -102,7 +102,7 @@ Symbol| Explaination
 $ | used to end of the line
 
 
-**Word Boundaries**
+**11 Word Boundaries**
 
 Symbol| Explaination
 :-----|:-------------:
