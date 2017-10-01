@@ -59,3 +59,12 @@ Class | Equivalent| meaning
 [:upper:] |	[A-Z]	|uppercase letters
 [:word:]|	[A-Za-z0-9_]	|word characters
 [:xdigit:]|	[0-9A-Fa-f]	|hexadecimal digits
+
+**Repitation Metacharacters**
+
+Metacharacter| Meaning
+:------------:|:--------
+ *| Preceding item zero or more times
+ +| Preceding item one or more times
+ ?| Preceding item zero or one time
+
