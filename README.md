@@ -77,6 +77,14 @@ example :   /d\{1,3\} digit containing one or three like 123, 456, 22
 /d\{1\} minimum single digit 
 
 /d\{1,\} minimum single digit and max infinite 
-            
+
+
+**Grouping Metachracters**
+
+(): used to grouping metacharacters like /(abc)+/ matches abc, abcabc, abcabcabac 
+
+**Alternation Metacharacters**
+
+| is OR operator like /apple|orange/ matches "apple" or "orange" 
             
 
