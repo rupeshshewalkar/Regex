@@ -118,5 +118,19 @@ Examples:
 
 /\b\d+\b/ matches only digit like 1234 or it doesn't match 8778abc, because it is bounded in digit boundary 
 
+### **12 Back references** 
+
+Grouped expressions are captured 
+ - Stores the matched portion in parentheses
+ - Stores data matched, not expression 
+ - Backreferences allow access to captured data 
+ - Refer to first backreference with \1 likewise till \9
+ 
+ Example: 
+ 
+ /<(html)> hello </\1>/  will match <html> hello </html>
+ 
+ 
+
 
 
