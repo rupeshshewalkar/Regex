@@ -128,7 +128,7 @@ Grouped expressions are captured
  
      Example: 
  
-     /<(html)> hello </\1>/ will match /<html> hello </html>/
+     /<(html)> hello </\1>/ will match /<html/> hello /<\/html/>/
  
  
  - By default in regex, all mentioned  in () parenthesis are captured :
