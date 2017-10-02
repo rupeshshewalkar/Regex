@@ -136,9 +136,9 @@ Grouped expressions are captured
    like /(regex)/ regex word are captured for back references
  - Turn off above behaviour, we need write regex using below syntax
    
-      ` /(?:regex)/
+      `/(?:regex)/`
 
-       ? means "Give this group a different meaning"
+       `? means "Give this group a different meaning"
 
        : means " Turn of capturing"`
 
