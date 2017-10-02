@@ -143,8 +143,16 @@ Grouped expressions are captured
        : means " Turn of capturing"
 
 
+### **13 Regex Lookaround Asseration**
 
- 
+Look Around Asseration Types:
 
+- Positive Lookaround Asseration 
+- Negative Lookaround Asseration 
+
+Metachracter| Meaning 
+------------|:-----------
+?=| Positive Lookraound Asseration 
+?!| Negative Lookaround Asseration 
 
 
