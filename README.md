@@ -179,7 +179,7 @@ Positive Behind Lookaround Example:
 
 Negative Behind Lookaround Example:
 
-`/ball(?<!base)/ matches only "ball" whose desn't having behind is base i.e baseball, it matches football'
+`/ball(?<!base)/ matches only "ball" whose desn't having behind is base i.e baseball, it matches football`
 
 	
 
