@@ -163,4 +163,23 @@ Negative Ahead Lookaround Example:
 
 `/sea(?!shore)/ matches "sea" whose ahead isn't shore word i.e sealink,seaside, it doesn't matches seashore`
 
+Look Behind Around Asseration Types:
+
+- Positive  Behind Lookaround Asseration 
+- Negative  Behind Lookaround Asseration 
+
+Metachracter| Meaning 
+------------|:-----------
+?<=| Positive Behind Lookraound Asseration 
+?<!| Negative Behind Lookaround Asseration 
+
+Positive Behind Lookaround Example:
+
+`/ball(?<=base)/ matches only "ball" whose behind is base i.e baseball, it doesn't matches football`
+
+Negative Behind Lookaround Example:
+
+`/ball(?<!base)/ matches only "ball" whose desn't having behind is base i.e baseball, it matches football'
+
+	
 
