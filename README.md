@@ -89,12 +89,12 @@ example :   /d\{1,3\} digit containing one or three like 123, 456, 22
 
 ### **8 Grouping Metachracters**
 
-(): used to grouping metacharacters like /(abc)+/ matches abc, abcabc, abcabcabac 
+`(): used to grouping metacharacters like /(abc)+/ matches abc, abcabc, abcabcabac`
 
 
 ### **9 Alternation Metacharacters**
 
-| is OR operator like /apple|orange/ matches "apple" or "orange" 
+`| is OR operator like /apple|orange/ matches "apple" or "orange" `
             
 
 ### **10 Anchors Expression**
@@ -128,7 +128,7 @@ Grouped expressions are captured
  
      Example: 
  
-     /<(html)> hello </\1>/ html word captured in \1 
+     `/<(html)> hello </\1>/ html word captured in \1`
  
  
  - By default in regex, all mentioned  in () parenthesis are captured :
@@ -136,7 +136,7 @@ Grouped expressions are captured
    like /(regex)/ regex word are captured for back references
  - Turn off above behaviour, we need write regex using below syntax
    
-   /(?:regex)/
+  ` /(?:regex)/`
    
    ? means "Give this group a different meaning"
    
