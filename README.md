@@ -145,21 +145,21 @@ Grouped expressions are captured
 
 ### **13 Regex Lookaround Asseration**
 
-Look Around Asseration Types:
+Look Ahead Around Asseration Types:
 
-- Positive Lookaround Asseration 
-- Negative Lookaround Asseration 
+- Positive  Ahead Lookaround Asseration 
+- Negative  Ahead Lookaround Asseration 
 
 Metachracter| Meaning 
 ------------|:-----------
-?=| Positive Lookraound Asseration 
-?!| Negative Lookaround Asseration 
+?=| Positive Ahead Lookraound Asseration 
+?!| Negative Ahead Lookaround Asseration 
 
-Positive Lookaround Example:
+Positive Ahead Lookaround Example:
 
 `/sea(?=shore)/ matches only "sea" whose ahead is shore i.e seashore, it doesn't matches sealink,seaside etc`
 
-Negative Lookaround Example:
+Negative Ahead Lookaround Example:
 
 `/sea(?!shore)/ matches "sea" whose ahead isn't shore word i.e sealink,seaside, it doesn't matches seashore`
 
