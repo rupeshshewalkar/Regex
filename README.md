@@ -161,6 +161,6 @@ Positive Lookaround Example:
 
 Negative Lookaround Example:
 
-`/sea(?=shore)/ matches "sea" whose ahead isn't shore word i.e sealink,seaside, it doesn't matches seashore`
+`/sea(?!shore)/ matches "sea" whose ahead isn't shore word i.e sealink,seaside, it doesn't matches seashore`
 
 
