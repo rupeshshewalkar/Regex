@@ -138,9 +138,9 @@ Grouped expressions are captured
    
       `/(?:regex)/`
 
-       `? means "Give this group a different meaning"
+       ? means "Give this group a different meaning"
 
-       : means " Turn of capturing"`
+       : means " Turn of capturing"
 
 
 
