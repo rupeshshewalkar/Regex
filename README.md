@@ -126,9 +126,10 @@ Grouped expressions are captured
  - Backreferences allow access to captured data 
  - Refer to first backreference with \1 likewise till \9
  
- Example: 
+     Example: 
  
- /<(html)> hello </\1>/  will match <html> hello </html>
+     /<(html)> hello </\1>/ will match /<html> hello </html>/
+ 
  
  - By default in regex, all mentioned  in () parenthesis are captured :
  
