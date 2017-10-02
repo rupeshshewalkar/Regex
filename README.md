@@ -155,4 +155,8 @@ Metachracter| Meaning
 ?=| Positive Lookraound Asseration 
 ?!| Negative Lookaround Asseration 
 
+Positive Lookaround Example:
+
+`/sea(?=shore)/ matches only "sea" whose ahead is shore i.e seashore, it doesn't matches sealink,seaside etc`
+
 
