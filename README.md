@@ -136,14 +136,14 @@ Grouped expressions are captured
    like /(regex)/ regex word are captured for back references
  - Turn off above behaviour, we need write regex using below syntax
    
-  ` /(?:regex)/`
-   
-   ? means "Give this group a different meaning"
-   
-   : means " Turn of capturing"
- 
-      
- 
+      ` /(?:regex)/
+
+       ? means "Give this group a different meaning"
+
+       : means " Turn of capturing"`
+
+
+
  
 
 
