@@ -1,0 +1,15 @@
+
+Regex example 2:
+
+Put doller sign infornt of below values:
+
+
+566.00
+133556.00
+232.00
+$534.00
+1224.00
+$435.00
+212.00
+233.00
+$23.00

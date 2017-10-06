@@ -1,0 +1,20 @@
+Matching Decimal Number and Currency 
+
+5.1
+314.27918
+0.123
+.345
+23
+
+Ans:([\d]+)?.[\d]+
+
+
+
+Currency
+₹123
+$445
+$1324
+₹13323
+$12
+₹3
+Ans:^(\u20B9|\u0024)[\d]+$

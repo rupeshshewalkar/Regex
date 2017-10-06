@@ -1,0 +1,13 @@
+Matches All below names list
+
+
+Rupesh Shewalkar
+Mr. Amit Shewalkar
+J. M. Shewalkar
+Miss. Kalyani J. Shewalkar
+Amol Shewalkar
+
+
+Answer
+
+(^[A-Z]+[A-Za-z.\-]+ )?([A-Za-z.\-]+ )([A-Za-z.\-]+ )?([A-Za-z.\-]+)

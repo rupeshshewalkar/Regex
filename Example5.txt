@@ -1,0 +1,13 @@
+Matching URLS
+
+http://www.nowhere.com
+https://nowhere.com
+http://blog.nowhere.com/
+http://www.nowhere.com/product_page.html
+http://www.nowhere.com/product/3456
+http://www.nowhere.com/product_page.php?product=3456
+http://www.nowhere.com?product=28&color=blue
+http://www.nowhere.com#details
+https://22.12.31.23/product/mobile/mobile.php
+
+(http:|https:)//[\w.]+([/?#])?([\w.?=&/]+)?

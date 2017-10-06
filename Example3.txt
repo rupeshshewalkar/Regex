@@ -1,0 +1,9 @@
+Postal Code match 
+
+431 603
+431602
+43 1602
+
+Answer:
+
+^[\d ]+$

@@ -1,0 +1,9 @@
+Matching Email Address 
+
+someone@somewhere.com
+shewalkar.rupesh@gmail.com
+rupesh.shewalkar@hbcse.tifr.res.in
+amit1235@hotmail.com
+
+[\w.]+@[\w]+.[A-Za-z.]{3,} ( for no verified domain name)
+[\w.]+@[\w]+.(com|tifr.res.in|edu|org)  ( for verified domain name)
